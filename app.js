@@ -62,7 +62,7 @@ async function loadEnvToken() {
       const lines = text.split("\n");
       for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
-        if (line.startsWith("GITHUB_TOKEN")) {
+        if (line.startsWith("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")) {
           const parts = line.split("=");
           if (parts.length > 1) {
             let val = parts[1].trim();
